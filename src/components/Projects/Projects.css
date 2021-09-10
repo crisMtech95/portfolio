@@ -1,24 +1,49 @@
 
-
 .Projects__mainContainer {
     width: 100%;
-    height: 80vh;
+    display: flex;
+    justify-content: center;
+    /* height: 80vh; */
 }
-
-
+.Projects__bigContainer {
+    width: 90%;
+}
+.Projects__h2Div {
+    width: 120px;
+}
+.Projects__h2Div h2 {
+    width: 100px;
+    margin: 0;
+    margin-top: 30px;
+}
+.Projects__h2Div2 h2 {
+    width: 420px;
+    margin: 10px 0;
+    font-weight: 600;
+    font-size: 19px;
+    color: grey;
+}
 .Projects__container {
     display: flex;
-    overflow: scroll;
-    overflow-y: hidden;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    flex-wrap: wrap;
+
 }
 .Projects__SingleProjectDiv {
-    margin: 20px;
+    width: 400px;
+    margin: 10px;
+    /* border: solid black; */
 }
+/* .Projects__SingleProjectDiv h3 {
+    width: auto;
+} */
 .Projects__imageDiv {
     width: 400px;
     height: 300px;
     border-radius: 15px;
     overflow: hidden;
+    display: flex;
 }
 .allbnbImg {
     background-image: url("../../images/all-bnb.png");
