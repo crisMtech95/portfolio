@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.b7621551.chunk.css",
+    "main.js": "/portfolio/static/js/main.53d4b2d6.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.53d4b2d6.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.dca94377.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.dca94377.js.map",
+    "static/js/2.fcf90c26.chunk.js": "/portfolio/static/js/2.fcf90c26.chunk.js",
+    "static/js/2.fcf90c26.chunk.js.map": "/portfolio/static/js/2.fcf90c26.chunk.js.map",
+    "static/js/3.2594d033.chunk.js": "/portfolio/static/js/3.2594d033.chunk.js",
+    "static/js/3.2594d033.chunk.js.map": "/portfolio/static/js/3.2594d033.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.b7621551.chunk.css.map": "/portfolio/static/css/main.b7621551.chunk.css.map",
+    "static/js/2.fcf90c26.chunk.js.LICENSE.txt": "/portfolio/static/js/2.fcf90c26.chunk.js.LICENSE.txt",
+    "static/media/Skills.css": "/portfolio/static/media/sequelize1.e98b7f2d.svg",
+    "static/media/Projects.css": "/portfolio/static/media/stackOilFlow.d8348e14.png",
+    "static/media/Footer.css": "/portfolio/static/media/linkedin.2693e28d.svg",
+    "static/media/Background.css": "/portfolio/static/media/nyc2.40b57ff5.jpg",
+    "static/media/NavBar.css": "/portfolio/static/media/thinBurgerMenu.2a7fc546.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dca94377.js",
+    "static/js/2.fcf90c26.chunk.js",
+    "static/css/main.b7621551.chunk.css",
+    "static/js/main.53d4b2d6.chunk.js"
+  ]
+}
