@@ -1,0 +1,48 @@
+.Contact__mainContainer {
+    width: 100%;
+    height: 300px;
+    padding: 100px 0 100px 0;
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+}
+
+
+.Contact__container {
+    width: 90%;
+    display: flex;
+}
+.Contact__msgDiv {
+
+    width: 100%;
+}
+.Contact__msgDiv h2 {
+    width: 130px;
+}
+.Contact__msgDiv p {
+    font-weight: 400;
+    margin-top: 70px;
+    line-height: 30px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    max-width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Contact__infoMainDiv {
+    width: 100%;
+}
+.Contact__infoDiv {
+    margin-top: 25px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.Contact__infoDiv * {
+    margin: 0;
+    padding: 0;
+    margin: 0 20px 0 20px;
+}
+.Contact__infoDiv p {
+    color: rgb(128, 119, 119);
+}

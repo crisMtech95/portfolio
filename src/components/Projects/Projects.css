@@ -1,0 +1,42 @@
+
+
+.Projects__mainContainer {
+    width: 100%;
+    height: 80vh;
+}
+
+
+.Projects__container {
+    display: flex;
+    overflow: scroll;
+    overflow-y: hidden;
+}
+.Projects__SingleProjectDiv {
+    margin: 20px;
+}
+.Projects__imageDiv {
+    width: 400px;
+    height: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.allbnbImg {
+    background-image: url("../../images/all-bnb.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.audifyImg {
+    background-image: url("../../images/audify.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.sportsgramImg {
+    background-image: url("../../images/sportsgram.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.stack-oilFlowImg {
+    background-image: url("../../images/stackOilFlow.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}

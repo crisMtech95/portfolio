@@ -1,0 +1,92 @@
+.Skills__mainContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    height: 100%;
+    /* position: absolute; */
+}
+.Skills__container {
+    width: 90%;
+
+}
+.Skills__container h2 {
+    width: 100px;
+    margin: 0;
+    margin-top: 30px;
+
+}
+.Skills__personalImgDiv {
+    /* position: absolute; */
+    /* bottom: 0; */
+    /* display: flex;
+    justify-content: center; */
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.Skills__personalImg {
+    background-image: url("../../images/IMG_0003.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.Skills__imagesDiv {
+    /* width: 100%;
+    height: 400px; */
+    /* background-color: powderblue; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.Skills__image {
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.Skills__js {
+    background-image: url("../../devicons/javascript.svg");
+}
+.Skills__python {
+    background-image: url("../../devicons/python.svg");
+}
+.Skills__react {
+    background-image: url("../../devicons/react.svg");
+}
+.Skills__redux {
+    background-image: url("../../devicons/redux.svg");
+}
+.Skills__flask {
+    background-image: url("../../devicons/flask.svg");
+}
+.Skills__express {
+    background-image: url("../../devicons/express.svg");
+}
+.Skills__html {
+    background-image: url("../../devicons/html.svg");
+}
+.Skills__css {
+    background-image: url("../../devicons/css.svg");
+}
+.Skills__nodejs {
+    background-image: url("../../devicons/nodejs.svg");
+}
+.Skills__sequelize {
+    background-image: url("../../devicons/sequelize1.svg");
+}
+.Skills__docker {
+    background-image: url("../../devicons/docker.svg");
+}
+.Skills__git {
+    background-image: url("../../devicons/git.svg");
+}
+.Skills__heroku {
+    background-image: url("../../devicons/heroku.svg");
+}
+.Skills__psql {
+    background-image: url("../../devicons/postgresql.svg");
+}

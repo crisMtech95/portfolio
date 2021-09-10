@@ -1,0 +1,23 @@
+.Footer__mainContainer {
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    background-color: grey;
+    align-items: center;
+
+}
+.Footer__githubDiv {
+    background-image: url("../../devicons/github.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+}
+.Footer__linkedInDiv {
+    background-image: url("../../devicons/linkedin.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+}
