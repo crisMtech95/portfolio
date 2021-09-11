@@ -24,7 +24,9 @@ export default function SideBar({ setShowSideBar }) {
         <div
             className="SideBar__mainContainer"
             ref={sideRef}>
-            
+            <div className="SideBar__closeDiv">
+                <div className="SideBar__closeImg"/>
+            </div>
             <div className="SideBar__container">
                 <p>Home</p>
                 <p>About</p>
