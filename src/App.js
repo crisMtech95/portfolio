@@ -1,6 +1,6 @@
 import './App.css';
 import React, { useState } from 'react'
-import { Switch, Route } from 'react-router-dom'
+// import { Switch, Route } from 'react-router-dom'
 import Background from './components/Background';
 import Navbar from './components/NavBar';
 import Projects from './components/Projects';
@@ -12,17 +12,18 @@ import SideBar from './components/SideBar'
 function App() {
   let [showSideBar, setShowSideBar] = useState(false)
 
+
   return (
     <div className="App">
         <Navbar setShowSideBar={setShowSideBar} showSideBar={showSideBar}/>
-        <Background />
-        <Skills />
-        <Projects />
-        <Contact />
+        <Background/>
+        <Skills/>
+        <Projects/>
+        <Contact/>
         {showSideBar &&
           <SideBar setShowSideBar={setShowSideBar}/>
         }
-        <Footer />
+        <Footer/>
     </div>
   );
 }

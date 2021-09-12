@@ -5,7 +5,7 @@ import './Projects.css'
 export default function Projects() {
 
     return(
-        <div className="Projects__mainContainer">
+        <div className="Projects__mainContainer"  id="projects">
             <div className="Projects__bigContainer">
                 {/* <div> */}
                     <div className="Projects__h2Div">

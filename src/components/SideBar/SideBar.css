@@ -14,15 +14,15 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    color: rgb(218, 214, 214);
 }
-.SideBar__container p {
+.SideBar__container a {
     padding: 8px;
     font-size: 16px;
     font-family: 'Kaisei HarunoUmi', serif;
-
+    text-decoration: none;
+    color: rgb(218, 214, 214);
 }
-.SideBar__container p:hover {
+.SideBar__container a:hover {
     color: white;
     cursor: pointer;
 }

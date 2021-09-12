@@ -5,7 +5,7 @@ import './Skills.css'
 export default function Skills() {
 
     return(
-        <div className="Skills__mainContainer">
+        <div className="Skills__mainContainer" id="skills">
             <div  className="Skills__container">
                 <h2>Skills</h2>
                 <div className="Skills__imagesDiv">

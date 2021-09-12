@@ -24,21 +24,17 @@ export default function Background() {
     }, [description])
 
     return(
-        <div className="Background__mainContainer">
-            <div className="Background__bgImageDiv">
-              <div className="Background__bgImage"></div>
-              {/* <div className="Background__textContainer">
-                <div className="Background__textDiv"> */}
-                    <div className="Background__textDiv">
-                        <div className="Background__text">
-                            <h2>Hello!</h2>
-                            <div>{name}</div>
+            <div className="Background__mainContainer" id="home">
+                <div className="Background__bgImageDiv">
+                <div className="Background__bgImage"></div>
+                        <div className="Background__textDiv">
+                            <div className="Background__text">
+                                <h2>Hello!</h2>
+                                <div>{name}</div>
+                            </div>
                         </div>
-                    </div>
-                {/* </div>
-              </div> */}
-
+                </div>
             </div>
-        </div>
+
     )
 }

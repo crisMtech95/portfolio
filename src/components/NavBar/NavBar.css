@@ -36,5 +36,8 @@
     width: 35px;
     height: 30px;
     background-repeat: no-repeat;
-
+}
+.NavBar__burgerMenuDiv:hover {
+    filter: invert(30%);
+    cursor: pointer;
 }

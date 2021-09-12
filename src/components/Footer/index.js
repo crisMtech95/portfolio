@@ -6,7 +6,7 @@ export default function Footer() {
 
 
     return(
-        <div className="Footer__mainContainer">
+        <div className="Footer__mainContainer" id="footer">
             <a className="Footer__githubDiv" href="https://github.com/crisMtech95" target="_blank"
                 ><div className="Footer__githubDiv" />
             </a>

@@ -5,7 +5,7 @@ import './Contact.css'
 export default function Contact() {
 
     return(
-        <div className="Contact__mainContainer">
+        <div className="Contact__mainContainer"  id="contact">
             <div className="Contact__container">
                 <div className="Contact__msgDiv">
                     <h2>Contact</h2>
