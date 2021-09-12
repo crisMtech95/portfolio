@@ -1,5 +1,4 @@
 import React, { useEffect, useRef } from 'react';
-// import { useParams, Link, NavLink } from 'react-router-dom';
 import './SideBar.css'
 import { Link } from 'react-scroll';
 
